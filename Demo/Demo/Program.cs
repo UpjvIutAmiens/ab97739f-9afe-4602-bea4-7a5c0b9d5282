@@ -22,8 +22,8 @@ namespace Demo
             // Constitution de la table
             for (int i=0; i <= valMax; i++)
             {
-                // affichage = affichage + i;
-                affichage += String.Format("{0:00} * {1} = {2:00}", i, multiple, i*multiple);
+                affichage
+                    += $"{i:00} * {multiple} = {i*multiple:00}";
                 affichage += "\n";
             }
 

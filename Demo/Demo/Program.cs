@@ -23,7 +23,7 @@ namespace Demo
             for (int i=0; i <= valMax; i++)
             {
                 // affichage = affichage + i;
-                affichage += i + " * " + multiple + " = " + i * multiple;
+                affichage += String.Format("{0:00} * {1} = {2:00}", i, multiple, i*multiple);
                 affichage += "\n";
             }
 
